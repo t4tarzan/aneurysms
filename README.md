@@ -167,13 +167,14 @@ The anatomy-based post-processing methods achieve:
 ## 📝 Citation
 
 If you use this implementation, please cite the original paper:
-```
-[Paper citation information would go here]
+```[
+(https://arxiv.org/abs/2507.00832)
 ```
 
 ## 🤝 Contributing
 
 This implementation follows the exact specifications from the research paper. For improvements or extensions, please ensure compatibility with the original methodology.
+Models, python scripts, analysis and calculation scripts by WNTAP students Aanya Tulasi, Nikita Katuri, Rohan, Nishad Iyer, & Advik Muraka.
 
 ## 📄 License
 
