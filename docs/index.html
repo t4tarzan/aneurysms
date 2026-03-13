@@ -375,31 +375,31 @@ pip install -r requirements.txt</code></pre>
         <tbody>
           <tr>
             <td>1</td>
-            <td>Intensity Thresholding</td>
-            <td>~18%</td>
-            <td>~12%</td>
+            <td>Brain mask filtering — removes false positives outside the brain region</td>
+            <td>Partial</td>
+            <td>Partial</td>
           </tr>
           <tr>
             <td>2</td>
-            <td>Morphological Filtering</td>
-            <td>~27%</td>
-            <td>~21%</td>
+            <td>Artery proximity filter — uses artery segmentation mask</td>
+            <td>Moderate</td>
+            <td>Moderate</td>
           </tr>
           <tr>
             <td>3</td>
-            <td>Shape-based Pruning</td>
-            <td>~41%</td>
-            <td>~33%</td>
+            <td>Vein exclusion filter — removes venous false positives</td>
+            <td>Good</td>
+            <td>Good</td>
           </tr>
           <tr>
             <td>4</td>
-            <td>Context-aware Scoring</td>
-            <td>~58%</td>
-            <td>~44%</td>
+            <td>CVS mask filter — combined cerebrovascular mask</td>
+            <td>High</td>
+            <td>High</td>
           </tr>
           <tr class="highlight">
             <td>5 ★</td>
-            <td>Combined Ensemble (Recommended)</td>
+            <td>Full anatomy ensemble — all methods combined, 0 TP lost (Recommended)</td>
             <td><strong>70.6%</strong></td>
             <td><strong>51.6%</strong></td>
           </tr>
@@ -454,12 +454,13 @@ pip install -r requirements.txt</code></pre>
     <h2>Citation</h2>
     <p>If you use this project in your research, please cite the associated arXiv paper:</p>
     <div class="citation-box">
-      <strong>arXiv: 2507.00832</strong><br/><br/>
-      <em>
-        Cerebral Aneurysm Detection with Post-processing False-Positive Reduction
-        Using CPM-Net and 3D-CNN-TR Architectures.
-      </em><br/><br/>
-      Available at: arXiv preprint arXiv:2507.00832
+<pre><code>@article{aneurysm2025,
+  title   = {Anatomy-Based Post-Processing for Intracranial Aneurysm Detection},
+  journal = {arXiv preprint},
+  year    = {2025},
+  url     = {https://arxiv.org/abs/2507.00832}
+}</code></pre>
+      <p style="margin-top:12px; font-size:0.9rem;">arXiv preprint: arXiv:2507.00832</p>
     </div>
   </div>
 </section>
